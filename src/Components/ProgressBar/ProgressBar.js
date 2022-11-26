@@ -4,7 +4,9 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     progress {
-        margin-right: 10px;
+        width: 100%;
+        justify-content: center;
+        height: 13px;
     }
 
     progress[value] {
@@ -14,7 +16,7 @@ const Container = styled.div`
     }
 
     progress[value]::-webkit-progress-bar {
-        width: 100%;
+        width: 95%;
         height: 13px;
         background-color: #E3E1E;
         border-radius: 20px;
@@ -30,43 +32,27 @@ const Container = styled.div`
 
     @media only screen and (max-width: 376px) {
         progress[value]::-webkit-progress-bar {
-            width: 80%;
-            height: 13px;
             background-color: #E3E1E;
             border-radius: 20px;
             box-shadow: 0 0 5px #E3E1E1 inset;
         }
 
         progress[value]::-webkit-progress-value {
-            width: 80%;
-            height: 13px;
             background-color: ${props => props.color};
             border-radius: 20px;
-        }
-        span {
-            margin-left: -3.5rem;
-            line-height: 48px;
         }
     }
 
     @media only screen and (max-width: 320px) {
         progress[value]::-webkit-progress-bar {
-            width: 60%;
-            height: 10px;
             background-color: #E3E1E;
             border-radius: 20px;
             box-shadow: 0 0 5px #E3E1E1 inset;
         }
 
         progress[value]::-webkit-progress-value {
-            width: 60%;
-            height: 10px;
             background-color: ${props => props.color};
             border-radius: 20px;
-        }
-        span {
-            margin-left: -8rem;
-            line-height: 48px;
         }
     }
 `;
@@ -76,7 +62,7 @@ const ProgressBar = ({ value, max, color, width }) => {
     return (
         <Container color={color} width={width} >
             <progress value={value} max={max}  />
-            <span style={{zIndex:20, font: "normal bold 12px/8px Roboto", color: "#3E5140"}}>{(value / max) * 100}%</span>
+            <i style={{zIndex:20, font: "normal normal 14px/40px Roboto", color: "#3E5140"}}>{(value / max) * 100}%</i>
         </Container>
     )
 }

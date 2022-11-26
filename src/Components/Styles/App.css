@@ -138,7 +138,7 @@ table {
 
 .home-container {
     width: 100%;
-    margin: 0;
+    margin: auto;
     text-align: center;
     background: #E5FFEE;
     background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
@@ -183,7 +183,7 @@ a {
 .get-started-button-1 {
     width: 9em;
     height: 4em;
-    margin-left: 150px;
+    margin-left: 50px;
     padding: 1.3em;
     border: none;
     font: normal 500 18px/21px Roboto;
@@ -245,8 +245,6 @@ a {
 }
 
 .home-projects-div {
-    width: 95%;
-    margin: 2rem;
     text-align: center;
 }
 
@@ -454,6 +452,7 @@ a {
     .home-button-div {
         display: flex;
         flex-direction: row;
+        width: 50%;
         margin: 49px auto auto;
     }
     .get-started-button-1 {
@@ -600,7 +599,6 @@ a {
         margin-top: 100px;
         background: #E5FFEE;
         text-align: center;
-        overflow: hidden;
         background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
     }
     .find-the-best-text {
@@ -628,7 +626,6 @@ a {
     .get-started-button-1 {
         width: 8em;
         height: 3em;
-        margin-left: 2.6rem;
         padding: 1em;
         border: none;
         font: normal 500 18px/21px Roboto;
@@ -794,7 +791,6 @@ a {
     .get-started-button-1 {
         width: 8em;
         height: 3em;
-        margin-left: 30px;
         padding: 1em;
         border: none;
         font: normal 500 18px/21px Roboto;
