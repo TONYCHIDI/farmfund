@@ -231,6 +231,7 @@ body {
 }
     
 .farmer-projects-div {
+    width: 100%;
     display: flex;
     margin: auto;
 }
@@ -414,12 +415,6 @@ body {
         font: normal bold 44px/70px Roboto;
         text-align: center;
         color: #000000;
-    }
-        
-    .farmer-projects-div {
-        width: 60%;
-        margin: 0 auto;
-        justify-content: center;
     }
 }
 
