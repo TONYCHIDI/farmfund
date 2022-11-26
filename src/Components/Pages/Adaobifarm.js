@@ -12,7 +12,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 
 function Adaobifarm() {
     return (
-        <div className="farmers-main-div">
+        <div className="farmers-main-div" id='adafarm'>
             <div className="farmers-div-1">
                 <div className="adaobi-profile-left">
                     <img className="adaobi-prof-img" src={AdaobiProfile} alt="" />

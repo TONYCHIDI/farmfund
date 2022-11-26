@@ -10,7 +10,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 
 function Uchefarm() {
     return (
-        <div className="farmers-main-div">
+        <div className="farmers-main-div" id='okorofarm'>
             <div className="farmers-div-1">
                 <div className="adaobi-profile-left">
                     <img className="adaobi-prof-img" src={Okoro1} alt="" />

@@ -231,8 +231,8 @@ body {
 }
     
 .farmer-projects-div {
-    width: 94%;
-    margin-left: 3%;
+    display: flex;
+    margin: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -417,9 +417,9 @@ body {
     }
         
     .farmer-projects-div {
-        width: 100%;
+        width: 60%;
         margin: 0 auto;
-        text-align: center;
+        justify-content: center;
     }
 }
 
