@@ -1,0 +1,858 @@
+body {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    padding: 0%;
+    text-align: center;
+}
+    
+.footer-main-div {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ECF0FD;
+}
+
+.footer-prim-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 261px;
+    background-color: #22CF67;
+}
+
+.footer-prim-paragraph-text {
+    width: 57.38%;
+    padding-top: 78px;
+    margin-left: 10.64%;
+    text-align: left;
+    font: normal bold 34px/52px Roboto;
+    color: #FFFFFF;
+}
+    
+.footer-prim-button {
+    width: 206px;
+    height: 27.59%;
+    margin-top: 56.02%;
+    margin-left: 55.5%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+    background-color: #22CF67;
+    cursor: pointer;
+    outline: none;
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+.footer-sec-div {
+    width: 100%;
+    height: 741px;
+    background-color: #1DD87E;
+}
+
+span {
+    margin-left: 10px;
+    font: normal normal 14px/32px Roboto;
+    color: #FFFFFF;
+}
+
+.footer-smooth-acrotag {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6%;
+    margin-left: 18%;
+    text-decoration: none;
+}
+
+.footer-smooth-acrotag img {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 6%;
+}
+
+.footer-support-acrotag {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: -4.1rem;
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+.footer-support-acrotag img {
+    width: 42px;
+    height: 42px;
+}
+
+.footer-payment-acrotag {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -2.8rem;
+    margin-left: 65%;
+    text-decoration: none;
+}
+
+.footer-payment-acrotag img {
+    width: 42px;
+    height: 42px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.footer-farmfund-acrotag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 53px;
+    text-align: center;
+    margin-top: 8%;
+    font: normal normal 20px/52px Roboto;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-farmfund-img {
+    height: 5rem;
+    margin-right: 1rem;
+    margin-top: -1.5rem;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    margin-left: 15.28%;
+    margin-top: -27.99%;
+    border: 1px solid #9A7DFF;
+}
+
+    
+.footer-ter-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 11%;
+}
+
+.footer-ter-div h3 {
+    font: normal bold 14px/52px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.who-we-are-div {
+    width: 8.5%;
+}
+
+.who-we-are-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.quick-link-div {
+    width: 8.5%;
+}
+
+.quick-link-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-div {
+    width: 14%;
+}
+
+.contact-us-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.footer-ter-div ul li, a {
+    list-style: none;
+    text-decoration: none;
+    font: normal normal 12px/22px Roboto;
+    color: #FFFFFF;
+}
+
+.footer-bottom-div {
+    width: 100%;
+    height: 68px;
+    margin-top: 13%;
+    background-color: #FFFFFF;
+}
+
+.footer-social {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-top: 1rem;
+    cursor: pointer;
+    float: left;
+}
+
+.footer-twitter-img {
+    width: 10%;
+}
+
+.footer-facebook-img {
+    width: 10%;
+}
+
+.footer-feed-img {
+    width: 10%;
+}
+
+.footer-instagram-img {
+    width: 10%;
+}
+
+.copyright-text {
+    font: normal normal 14px/22px Roboto;
+    color: #272D4E;
+    margin-top: 1.3rem;
+    margin-left: 12rem;
+    float: left;
+}
+
+@media only screen  and (max-width: 2560px) and (min-width: 1441px) {
+    .footer-sec-div {
+        margin-top: -2rem;
+    }
+
+    span {
+        margin-left: 10px;
+        font: normal normal 24px/46px Roboto;
+        color: #FFFFFF;
+    }
+
+    .footer-smooth-acrotag {
+        padding-top: 4%;
+    }
+    
+    .footer-smooth-acrotag img {
+        width: 52px;
+        height: 52px;
+    }
+    
+    .footer-support-acrotag {
+        margin-top: -5.5rem;
+        margin-left: 45%;
+    }
+    
+    .footer-support-acrotag img {
+        width: 52px;
+        height: 52px;
+    }
+    
+    .footer-payment-acrotag {
+        margin-top: -3.5rem;
+    }
+    
+    .footer-payment-acrotag img {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 1rem;
+    }
+
+    .footer-farmfund-acrotag {
+        margin-top: 10rem;
+        font: normal normal 28px/52px Roboto;
+    }
+
+    .footer-line {
+        margin-left: 13.28%;
+        margin-top: -11.99%;
+    }
+
+    .footer-ter-div h3 {
+        font: normal bold 24px/52px Roboto;
+        margin-bottom: -1rem;
+    }
+
+    .who-we-are-div {
+        width: 8%;
+    }
+    
+    .quick-link-div {
+        width: 8%;
+    }
+    
+    .contact-div {
+        width: 11%;
+    }
+
+    .footer-ter-div ul li, a {
+        font: normal normal 22px/22px Roboto;
+        margin-top: 1rem;
+    }
+
+    .footer-bottom-div {
+        margin-top: 4rem;
+    }
+
+    .copyright-text {
+        font: normal normal 24px/22px Roboto;
+        margin-left: 42rem;
+    }
+}
+
+@media only screen  and (max-width: 1025px) and (min-width: 769px) {
+    .footer-smooth-acrotag {
+        margin-left: 12%;
+    }
+
+    .footer-payment-acrotag img {
+        margin-bottom: 6rem;
+    }
+
+    .who-we-are-div {
+        width: 11%;
+    }
+    
+    .quick-link-div {
+        width: 11%;
+    }
+    
+    .contact-div {
+        width: 18%;
+    }
+
+    .footer-bottom-div {
+        margin-top: 7rem;
+    }
+}
+
+@media only screen  and (max-width: 768px) and (min-width: 426px) {
+    .footer-main-div {
+        max-width: 100%;
+        margin: 0;
+        background-color: #ECF0FD;
+    }
+    
+    .footer-prim-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        max-width: 100%;
+        height: fit-content;
+        background-color: #22CF67;
+        margin-bottom: -38px;
+    }
+    
+    .footer-prim-paragraph-text {
+        margin:-1em auto;
+        text-align: center;
+        width: 90%;
+        font: normal bold 24px/32px Roboto;
+        color: #FFFFFF;
+    }
+        
+    .footer-prim-button {
+        width: 40%;
+        margin: 3em auto;
+        text-align: center;
+        height: fit-content;
+        padding: 20px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 60px;
+        background-color: #22CF67;
+        cursor: pointer;
+        outline: none;
+        color: #FFFFFF;
+        font-size: large;
+    }
+    
+    .footer-sec-div {
+        width: 100%;
+        height: 741px;
+        background-color: #1DD87E;
+    }
+
+    .footer-sec-div-2 {
+        width: 94%;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 6rem;
+    }
+
+    span {
+        margin-left: 10px;
+        font: normal normal 13px/32px Roboto;
+        color: #FFFFFF;
+    }
+    
+    .footer-smooth-acrotag {
+        width: 34%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 1%;
+        margin-left: 3%;
+        text-decoration: none;
+    }
+
+    .footer-smooth-acrotag img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .footer-support-acrotag {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-top: -6%;
+        margin-left: 40%;
+        text-decoration: none;
+    }
+
+    .footer-support-acrotag img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .footer-payment-acrotag {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin-top: -4.5%;
+        text-decoration: none;
+    }
+
+    .footer-payment-acrotag img {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 6%;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+    
+    .footer-farmfund-acrotag {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 53px;
+        text-align: center;
+        margin-top: 8%;
+        font: normal normal 20px/52px Roboto;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .footer-farmfund-img {
+        height: 5rem;
+        margin-right: 1rem;
+        margin-top: -1.5rem;
+    }
+    
+    .footer-line {
+        display: flex;
+        justify-content: center;
+        width: 72%;
+        margin-left: 15.28%;
+        margin-top: -50.99%;
+        border: 1px solid #9A7DFF;
+    }
+    
+        
+    .footer-ter-div {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer-ter-div h3 {
+        font: normal bold 14px/52px Roboto;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .who-we-are-div {
+        width: 20%;
+    }
+    
+    .who-we-are-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .quick-link-div {
+        width: 20%;
+    }
+    
+    .quick-link-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .contact-div {
+        width: 20%;
+    }
+    
+    .contact-us-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0;
+    }
+    
+    .footer-ter-div ul li, a {
+        list-style: none;
+        text-decoration: none;
+        font: normal normal 12px/22px Roboto;
+        color: #FFFFFF;
+    }
+    
+    .footer-bottom-div {
+        width: 100%;
+        height: 58px;
+        margin-top: 185px;
+        background-color: #FFFFFF;
+    }
+    
+    .footer-social {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 12%;
+        margin-top: 1rem;
+        cursor: pointer;
+        float: left;
+    }
+    
+    .footer-twitter-img {
+        width: 14%;
+    }
+    
+    .footer-facebook-img {
+        width: 14%;
+    }
+    
+    .footer-feed-img {
+        width: 14%;
+    }
+    
+    .footer-instagram-img {
+        width: 14%;
+    }
+    
+    .copyright-text {
+        font: normal normal 12px/22px Roboto;
+        color: #272D4E;
+        margin-top: 1rem;
+        margin-left: 12rem;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .footer-main-div {
+        max-width: 100%;
+        margin: 0;
+        background-color: #ECF0FD;
+    }
+    
+    .footer-prim-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        max-width: 100%;
+        height: fit-content;
+        background-color: #22CF67;
+    }
+    
+    .footer-prim-paragraph-text {
+        margin:-1em auto;
+        text-align: center;
+        width: 90%;
+        font: normal bold 24px/32px Roboto;
+        color: #FFFFFF;
+    }
+        
+    .footer-prim-button {
+        width: 40%;
+        margin: 3em auto;
+        text-align: center;
+        height: fit-content;
+        padding: 20px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 60px;
+        background-color: #22CF67;
+        cursor: pointer;
+        outline: none;
+        color: #FFFFFF;
+        font-size: medium;
+    }
+    
+    .footer-sec-div {
+        width: 100%;
+        height: 741px;
+        background-color: #1DD87E;
+    }
+    
+    .footer-sec-div-2 {
+        width: 94%;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+    }
+
+    span {
+        margin-left: 10px;
+        font: normal normal 10px/12px Roboto;
+        color: #FFFFFF;
+    }
+    
+    .footer-smooth-acrotag {
+        width: 34%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;
+        margin-left: 3%;
+        text-decoration: none;
+    }
+
+    .footer-smooth-acrotag img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .footer-support-acrotag {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-top: -9%;
+        margin-left: 40%;
+        text-decoration: none;
+    }
+
+    .footer-support-acrotag img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .footer-payment-acrotag {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin-top: -7%;
+        margin-left: 70%;
+        text-decoration: none;
+    }
+
+    .footer-payment-acrotag img {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 10%;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+    
+    .footer-farmfund-acrotag {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 53px;
+        text-align: center;
+        margin-top: 8%;
+        font: normal normal 20px/52px Roboto;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .footer-farmfund-img {
+        height: 5rem;
+        margin-right: 1rem;
+        margin-top: -1.5rem;
+    }
+    
+    .footer-line {
+        display: flex;
+        justify-content: center;
+        width: 72%;
+        margin-top: -109%;
+        border: 1px solid #9A7DFF;
+    }
+        
+    .footer-ter-div {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin: auto;
+        margin-top: 19%;
+    }
+    
+    .footer-ter-div h3 {
+        display: flex;
+        font: normal bold 14px/52px Roboto;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .who-we-are-div {
+        width: 30%;
+    }
+    
+    .who-we-are-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .quick-link-div {
+        width: 30%;
+    }
+    
+    .quick-link-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .contact-div {
+        width: 33%;
+    }
+    
+    .contact-us-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0;
+    }
+    
+    .footer-ter-div ul li, a {
+        list-style: none;
+        text-decoration: none;
+        font: normal normal 12px/22px Roboto;
+        color: #FFFFFF;
+    }
+    
+    .footer-bottom-div {
+        width: 100%;
+        height: 38px;
+        margin-top: 14rem;
+        background-color: #FFFFFF;
+    }
+    
+    .footer-social {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 12%;
+        margin-top: 1rem;
+        cursor: pointer;
+        float: left;
+    }
+    
+    .footer-twitter-img {
+        width: 14%;
+    }
+    
+    .footer-facebook-img {
+        width: 14%;
+    }
+    
+    .footer-feed-img {
+        width: 14%;
+    }
+    
+    .footer-instagram-img {
+        width: 14%;
+    }
+    
+    .copyright-text {
+        font: normal normal 12px/22px Roboto;
+        color: #272D4E;
+        margin-top: -1rem;
+        margin-left: 12rem;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer-main-div {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    .footer-ter-div {
+        margin-bottom: -1rem;
+    }
+    .footer-bottom-div {
+        margin-top: 13rem;
+    }
+    .copyright-text {
+        margin-top: -1rem;
+        margin-left: 10rem;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-ter-div {
+        margin-bottom: -8rem;
+    }
+
+    .footer-ter-div h3 {
+        font: normal bold 10px/52px Roboto;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .who-we-are-div {
+        width: 25%;
+    }
+    
+    .quick-link-div {
+        width: 25%;
+    }
+    
+    .contact-div {
+        width: 37%;
+        margin-left: -5%;
+    }
+
+    .footer-bottom-div {
+        margin-top: 15rem;
+    }
+
+    .copyright-text {
+        font: normal normal 9px/22px Roboto;
+        margin-left: 10rem;
+        float: left;
+    }
+}

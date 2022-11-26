@@ -1,0 +1,986 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: #E5FFEE;
+    background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(249, 249, 249, 0) 100%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.home-container {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: #E5FFEE;
+    background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.hero-div {
+    width: 100%;
+    margin-top: 100px;
+    background: #E5FFEE;
+    background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+
+.find-the-best-text {
+    width: 10em;
+    height: 5.56%;
+    margin-top: 69px;
+    margin-left: 50px;
+    font: normal bold 4rem/110.19% Roboto;
+    text-align: left;
+    color: #272D4E;
+}
+
+.farm-fund-description-paragraph {
+    width: 50em;
+    height: 0.84%;
+    margin-top: 19px;
+    margin-left: 50px;
+    text-align: left;
+    font: normal normal 0.9rem/25px Roboto;
+    color: #94A2B3;
+}
+
+.home-button-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.get-started-button-1 {
+    width: 9em;
+    height: 4em;
+    margin-left: 150px;
+    padding: 1.3em;
+    border: none;
+    font: normal 500 18px/21px Roboto;
+    background: #70C217;
+    color: #FFF;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.find-farms-acrotag {
+    display: block;
+    padding-left: 1.5rem;
+    margin-top: 24px;
+    font: normal normal 18px/25px Roboto;
+    color: #94A2B3;
+}
+
+.home-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-img-1 {
+    width: 11rem;
+    height: 8rem;
+    margin-left: 55.4%;
+    margin-top: -23rem;
+    z-index: 1;
+}
+
+.home-img-2 {
+    width: 26rem;
+    height: 7.32%;
+    margin-left: 58.4%;
+    margin-top: -3.5rem;
+}
+
+.home-img-3 {
+    width: 18rem;
+    height: 10rem;
+    margin-left: 45.5%;
+    margin-top: -4.8rem;
+}
+
+.home-img-4 {
+    width: 20rem;
+    height: 5.59%;
+    margin-left: 70.5%;
+    margin-top: -12rem;
+}
+
+.projects-title-text {
+    width: 100%;
+    height: 2.57%;
+    margin-top: 12rem;
+    font: normal bold 64px/70px Roboto;
+    text-align: center;
+    color: #000000;
+}
+
+.home-projects-div {
+    width: 95%;
+    margin: 2rem;
+    text-align: center;
+}
+
+.testimonial-div {
+    width: 100%;
+    margin-top: 6rem;
+    background-image: url('/src//Components/Assets/rectangle1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;    
+}
+
+.testimonial-text {
+    width: 100%;
+    height: 1.34%;
+    margin-top: 12%;
+    font: normal bold 64px/70px Roboto;
+    text-align: center;
+    color: #000000;
+}
+
+.secondary-test {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.eclipse-1-2-div,
+.eclipse-3-4-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-ellipse-1 {
+    width: 4%;
+    height: 6%;
+    margin-left: 11%;
+    margin-top: -16%;
+}
+
+.home-ellipse-2 {
+    width: 21%;
+    height: 36%;
+    margin-left: 1%;
+    margin-top: -18%;
+}
+
+.home-ellipse-3 {
+    width: 4%;
+    height: 6%;
+    margin-bottom: -3%;
+    margin-left: 64%;
+    z-index: 1;
+}
+
+.home-ellipse-4 {
+    width: 14%;
+    height: 24%;
+    margin-bottom: -38%;
+    margin-left: 5%;
+}
+
+.home-andrew-img {
+    width: 22%;
+    height: 49%;
+    z-index: +1;
+    height: 47%;
+    margin-top: -2.5rem;
+    margin-left: 18%;
+}
+
+.home-ogbonna-img {
+    width: 22%;
+    height: 49%;
+    margin-bottom: -22%;
+    margin-left: 59.58%;
+}
+
+.home-andrew-title-text {
+    display: flex;
+    width: 56%;
+    height: 1.59;
+    margin-top: -20%;
+    margin-left: 52%;
+    font: normal bold 36px/42px Roboto;
+    color: #FEFEFE;
+}
+
+.home-andrew-paragraph-text {
+    display: flex;
+    width: 27.6%;
+    height: 3.52%;
+    margin-left: 52%;
+    margin-top: -1%;
+    text-align: justify;
+    font: normal normal 18px/30px Roboto;
+    color: #FFFFFF;
+}
+
+.home-ogbonna-title-text {
+    display: flex;
+    width: 36.63%;
+    height: 1.59;
+    margin-top: -9%;
+    margin-left: 11%;
+    font: normal bold 36px/42px Roboto;
+    color: #FEFEFE;
+}
+
+.home-ogbonna-paragraph-text {
+    position: inherit;
+    display: flex;
+    width: 33.6%;
+    height: 3.52%;
+    margin-left: 11%;
+    margin-top: -1%;
+    text-align: justify;
+    font: normal normal 18px/30px Roboto;
+    color: #FFFFFF;
+}
+
+.our-partners-div {
+    width: 100%;
+    height: 20.29%;
+    margin-top: 5rem;
+    background: linear-gradient(180deg, rgba(239, 253, 236, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+}
+
+.our-partners-text {
+    display: block;
+    width: 100%;
+    height: 1.34%;
+    margin-top: 14rem;
+    font: normal bold 64px/70px Roboto;
+    text-align: center;
+    color: #000000;
+}
+
+.home-bluehost-img {
+    width: 26.02%;
+    height: 15.05%;
+    margin-left: 1%;
+}
+
+.home-google-img {
+    width: 20.63%;
+    height: 7.61%;
+    margin-left: 38%;
+    margin-bottom: 2em;
+}
+
+.home-paystack-img {
+    display: block;
+    width: 32.08%;
+    height: 14.56%;
+    margin-left: 8%;
+    margin-top: 2em;
+}
+
+.home-godaddy-img {
+    display: inline;
+    width: 28.68%;
+    height: 8.11%;
+    margin-left: 62%;
+    margin-top: -10em;
+}
+
+.home-dots-img {
+    display: block;
+    width: 25.86%;
+    margin-top: 2em;
+    margin-left: 24%;
+}
+
+.home-dots1-img {
+    display: flex;
+    flex-direction: column;
+    width: 25.86%;
+    margin-left: 50%;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .hero-div {
+        width: 100%;
+        margin-top: 100px;
+        background: #E5FFEE;
+        overflow: hidden;
+        background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    }
+    .find-the-best-text {
+        width: 100%;
+        height: 5.56%;
+        margin: 69px auto auto;
+        font: normal bold 3rem/110.19% Roboto;
+        text-align: center;
+        color: #272D4E;
+    }
+    .farm-fund-description-paragraph {
+        width: 100%;
+        height: 0.84%;
+        margin: 19px auto auto;
+        text-align: center;
+        font: normal normal 0.9rem/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-button-div {
+        display: flex;
+        flex-direction: row;
+        margin: 49px auto auto;
+    }
+    .get-started-button-1 {
+        width: 9em;
+        height: 4em;
+        margin-left: 60px;
+        padding: 1.3em;
+        border: none;
+        font: normal 500 18px/21px Roboto;
+        background: #70C217;
+        color: #FFF;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .find-farms-acrotag {
+        display: block;
+        padding-left: 1.5rem;
+        margin-top: 24px;
+        font: normal normal 18px/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-images {
+        display: none;
+        visibility: hidden;
+    }
+    .home-projects-div {
+        width: 50%;
+        margin: auto;
+    }
+    .projects-title-text {
+        width: 100%;
+    }
+
+    .testimonial-div {
+        width: 100%;
+        margin-top: 2.5rem;
+        background-image: url('/src//Components/Assets/rectangle1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;    
+    }
+    .testimonial-text {
+        width: 100%;
+        font: normal bold 44px/70px Roboto;
+    }
+    .secondary-test {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .eclipse-1-2-div,
+    .eclipse-3-4-div {
+        display: flex;
+        flex-direction: row;
+    }
+    .home-ellipse-1 {
+        width: 4%;
+        height: 6%;
+        margin-left: 3%;
+        margin-top: -16%;
+    }
+    .home-ellipse-2 {
+        width: 21%;
+        height: 36%;
+        margin-left: 1%;
+        margin-top: -18%;
+    }
+    .home-ellipse-3 {
+        width: 4%;
+        height: 6%;
+        margin-top: 4%;
+        margin-left: 69%;
+        z-index: 1;
+    }
+    .home-ellipse-4 {
+        width: 14%;
+        height: 24%;
+        margin-top: 3.5%;
+        margin-bottom: -38%;
+        margin-left: 5%;
+    }
+    .home-andrew-img {
+        width: 22%;
+        height: 49%;
+        z-index: +1;
+        height: 47%;
+        margin-top: -0.5rem;
+        margin-left: 10%;
+    }
+    .home-ogbonna-img {
+        width: 22%;
+        height: 49%;
+        margin-bottom: -38.5%;
+        margin-top: 1%;
+        margin-left: 65%;
+    }
+    .home-andrew-title-text {
+        display: flex;
+        width: 50%;
+        margin-top: -29%;
+        margin-left: 35%;
+        font: normal bold 14px/42px Roboto;
+    }
+    .home-andrew-paragraph-text {
+        display: flex;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -5%;
+        text-align: justify;
+        font: normal normal 8px/10px Roboto;
+    }
+    .home-ogbonna-title-text {
+        display: flex;
+        width: 60%;
+        margin-top: 4%;
+        margin-left: 3%;
+        font: normal bold 14px/42px Roboto;
+    }
+    .home-ogbonna-paragraph-text {
+        display: flex;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: -5%;
+        text-align: justify;
+        font: normal normal 8px/10px Roboto;
+    }
+
+    .our-partners-text {
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        font: normal bold 44px/70px Roboto;
+    }
+    .home-godaddy-img {
+        margin-top: -6em;
+        margin-bottom: 4em;
+    }
+    .home-paystack-img {
+        margin-bottom: 3em;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .hero-div {
+        width: 100%;
+        margin-top: 100px;
+        background: #E5FFEE;
+        text-align: center;
+        overflow: hidden;
+        background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    }
+    .find-the-best-text {
+        width: 70%;
+        height: 5.56%;
+        margin: 69px auto auto;
+        font: normal bold 2.2rem/110.19% Roboto;
+        text-align: center;
+        color: #272D4E;
+    }
+    .farm-fund-description-paragraph {
+        width: 70%;
+        height: 0.84%;
+        margin: 19px auto auto;
+        text-align: center;
+        font: normal normal 0.7rem/20px Roboto;
+        color: #94A2B3;
+    }
+    .home-button-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 49px auto auto;
+    }
+    .get-started-button-1 {
+        width: 8em;
+        height: 3em;
+        margin-left: 2.6rem;
+        padding: 1em;
+        border: none;
+        font: normal 500 18px/21px Roboto;
+        background: #70C217;
+        color: #FFF;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .find-farms-acrotag {
+        display: block;
+        padding-left: 1.5rem;
+        margin-top: 14px;
+        font: normal normal 15px/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-images {
+        display: none;
+        visibility: hidden;
+    }
+    .home-projects-div {
+        width: 100%;
+        margin: 0;
+    }
+    .projects-title-text {
+        width: 100%;
+        text-align: center;
+        font: normal bold 48px/70px Roboto;
+    }
+
+    .testimonial-div {
+        width: 100%;
+        margin-top: 2.5rem;
+        background-image: url('/src//Components/Assets/rectangle1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;    
+    }
+    .testimonial-text {
+        width: 100%;
+        font: normal bold 44px/70px Roboto;
+    }
+    .secondary-test {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .eclipse-1-2-div,
+    .eclipse-3-4-div {
+        display: flex;
+        flex-direction: row;
+    }
+    .home-ellipse-1 {
+        width: 4%;
+        height: 6%;
+        margin-left: 3%;
+        margin-top: -16%;
+    }
+    .home-ellipse-2 {
+        width: 21%;
+        height: 36%;
+        margin-left: 1%;
+        margin-top: -18%;
+    }
+    .home-ellipse-3 {
+        width: 4%;
+        height: 6%;
+        margin-top: 4%;
+        margin-left: 69%;
+        z-index: 1;
+    }
+    .home-ellipse-4 {
+        width: 14%;
+        height: 24%;
+        margin-top: 3.5%;
+        margin-bottom: -38%;
+        margin-left: 5%;
+    }
+    .home-andrew-img {
+        width: 22%;
+        height: 49%;
+        z-index: +1;
+        height: 47%;
+        margin-top: -0.5rem;
+        margin-left: 10%;
+    }
+    .home-ogbonna-img {
+        width: 22%;
+        height: 49%;
+        margin-bottom: -38.5%;
+        margin-top: -1.5%;
+        margin-left: 65%;
+    }
+    .home-andrew-title-text {
+        display: flex;
+        width: 50%;
+        margin-top: -29%;
+        margin-left: 35%;
+        font: normal bold 16px/42px Roboto;
+    }
+    .home-andrew-paragraph-text {
+        display: flex;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -4%;
+        text-align: justify;
+        font: normal normal 10px/10px Roboto;
+    }
+    .home-ogbonna-title-text {
+        display: flex;
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 3%;
+        font: normal bold 16px/42px Roboto;
+    }
+    .home-ogbonna-paragraph-text {
+        display: flex;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: -4%;
+        text-align: justify;
+        font: normal normal 10px/10px Roboto;
+    }
+
+    .our-partners-text {
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        font: normal bold 44px/70px Roboto;
+    }
+    .home-godaddy-img {
+        margin-top: -6em;
+        margin-bottom: 4em;
+    }
+    .home-paystack-img {
+        margin-bottom: 3em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .hero-div {
+        overflow: hidden;
+    }
+    .find-the-best-text {
+        width: 70%;
+        height: 5.56%;
+        margin: 69px auto auto;
+        font: normal bold 2.2rem/110.19% Roboto;
+        text-align: center;
+        color: #272D4E;
+    }
+    .farm-fund-description-paragraph {
+        width: 70%;
+        height: 0.84%;
+        margin: 19px auto auto;
+        text-align: center;
+        font: normal normal 0.6rem/20px Roboto;
+        color: #94A2B3;
+    }
+    .home-button-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 49px auto auto;
+    }
+    .get-started-button-1 {
+        width: 8em;
+        height: 3em;
+        margin-left: 30px;
+        padding: 1em;
+        border: none;
+        font: normal 500 18px/21px Roboto;
+        background: #70C217;
+        color: #FFF;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .find-farms-acrotag {
+        display: block;
+        padding-left: 1rem;
+        margin-top: 14px;
+        font: normal normal 15px/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-images {
+        display: none;
+        visibility: hidden;
+    }
+    .home-projects-div {
+        width: 100%;
+        margin: 0;
+    }
+    .projects-title-text {
+        width: 100%;
+        text-align: center;
+        font: normal bold 48px/70px Roboto;
+    }
+
+    .testimonial-div {
+        width: 100%;
+        margin-top: 2.5rem;
+        background-image: url('/src//Components/Assets/rectangle1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;    
+    }
+    .testimonial-text {
+        width: 100%;
+        font: normal bold 44px/70px Roboto;
+    }
+    .secondary-test {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .eclipse-1-2-div,
+    .eclipse-3-4-div {
+        display: flex;
+        flex-direction: row;
+    }
+    .home-ellipse-1 {
+        width: 4%;
+        height: 6%;
+        margin-left: 3%;
+        margin-top: -16%;
+    }
+    .home-ellipse-2 {
+        width: 21%;
+        height: 36%;
+        margin-left: 1%;
+        margin-top: -18%;
+    }
+    .home-ellipse-3 {
+        width: 4%;
+        height: 6%;
+        margin-top: 4%;
+        margin-left: 69%;
+        z-index: 1;
+    }
+    .home-ellipse-4 {
+        width: 14%;
+        height: 24%;
+        margin-top: 3.5%;
+        margin-bottom: -38%;
+        margin-left: 5%;
+    }
+    .home-andrew-img {
+        width: 22%;
+        height: 49%;
+        z-index: +1;
+        height: 47%;
+        margin-top: -0.5rem;
+        margin-left: 10%;
+    }
+    .home-ogbonna-img {
+        width: 22%;
+        height: 49%;
+        margin-bottom: -38.5%;
+        margin-top: 1%;
+        margin-left: 65%;
+    }
+    .home-andrew-title-text {
+        display: flex;
+        width: 50%;
+        margin-top: -29%;
+        margin-left: 35%;
+        font: normal bold 14px/42px Roboto;
+    }
+    .home-andrew-paragraph-text {
+        display: flex;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -5%;
+        text-align: justify;
+        font: normal normal 8px/10px Roboto;
+    }
+    .home-ogbonna-title-text {
+        display: flex;
+        width: 60%;
+        margin-top: 4%;
+        margin-left: 3%;
+        font: normal bold 14px/42px Roboto;
+    }
+    .home-ogbonna-paragraph-text {
+        display: flex;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: -5%;
+        text-align: justify;
+        font: normal normal 8px/10px Roboto;
+    }
+
+    .our-partners-text {
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        font: normal bold 44px/70px Roboto;
+    }
+    .home-godaddy-img {
+        margin-top: -6em;
+        margin-bottom: 4em;
+    }
+    .home-paystack-img {
+        margin-bottom: 3em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .find-the-best-text {
+        width: 70%;
+        height: 5.56%;
+        margin: 69px auto auto;
+        font: normal bold 2.3rem/110.19% Roboto;
+        text-align: center;
+        color: #272D4E;
+    }
+    .farm-fund-description-paragraph {
+        width: 70%;
+        height: 0.84%;
+        margin: 19px auto auto;
+        text-align: center;
+        font: normal normal 0.7rem/20px Roboto;
+        color: #94A2B3;
+    }
+    .home-button-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 49px auto auto;
+    }
+    .get-started-button-1 {
+        width: 8em;
+        height: 3em;
+        margin-left: 13px;
+        padding: 1em;
+        border: none;
+        font: normal 500 16px/21px Roboto;
+        background: #70C217;
+        color: #FFF;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .find-farms-acrotag {
+        display: block;
+        padding-left: 1rem;
+        margin-top: 14px;
+        font: normal normal 15px/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-projects-div {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+.alert {
+    color: #22CF67;
+    font: normal normal 14px/52px Roboto;
+}
